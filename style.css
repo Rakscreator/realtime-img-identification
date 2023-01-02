@@ -1,0 +1,47 @@
+body{
+  background: rgb(255,0,0);
+  background: linear-gradient(1deg, rgba(255,0,0,1) 0%, rgba(0,206,255,1) 100%);
+}
+.heading
+  {
+  width: 100%;
+  margin: 0px;
+  /*box-shadow:5px 5px 5px grey;*/
+  color: rgb(60, 60, 60);
+  margin-top: 13px; ;
+  }
+.heading_div
+  {
+  font-size: 20px;
+  font-weight:bold ;
+  float: none;
+  background: white ; 
+  border-radius: 20px; 
+  color: black;
+  box-shadow:5px 5px 5px grey;
+  }
+.heading_div2
+  {
+  font-size: 18px ;
+  }
+.result_para_tag
+{
+  box-shadow:5px 5px 5px grey;
+  font-size: 20px;
+}
+canvas{
+  border: 5px solid white;
+  border-radius: 20px;
+  box-shadow: 5px 5px 30px white;
+  margin-top: 200px;
+}
+.copy_right_footer{
+  position: fixed;
+  bottom: 0;
+  background-color: grey;
+  color: white;
+  width: 100%;
+  text-align: center;
+  line-height: 3;
+  font-size: 15px;
+}
